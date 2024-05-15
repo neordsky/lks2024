@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="18dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="Fragment.DialogFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgbarde"
+            android:layout_width="120sp"
+            android:layout_height="100sp"
+            android:background="@color/black"
+            android:scaleType="fitCenter"
+            />
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Nabadet"
+                android:text="Barang"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Habadet"
+                android:textSize="23sp"
+                android:text="Harga"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quandet"
+                    android:text="quanty"
+                    android:layout_gravity="right"
+                    />
+        </LinearLayout>
+
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageButton
+           android:id="@+id/clo"
+           android:layout_marginLeft="70dp"
+           android:layout_width="90sp"
+           android:layout_height="90sp"
+           android:src="@drawable/baseline_close_24"/>
+       <ImageButton
+           android:id="@+id/adker"
+           android:layout_marginLeft="100dp"
+           android:layout_width="90sp"
+           android:layout_height="90sp"
+           android:src="@drawable/baseline_shopping_cart_24"
+           android:layout_gravity="right"/>
+   </LinearLayout>
+
+</LinearLayout>

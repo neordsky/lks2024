@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="Fragment.KeranjangFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:orientation="vertical">
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/wadakera"
+          android:layout_width="match_parent"
+          android:layout_height="660sp"
+          android:layout_margin="8dp"
+          android:layout_marginStart="8dp"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginBottom="8dp"
+          android:orientation="vertical"
+          tools:listitem="@layout/kercard"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:text="Checkout"/>
+   </LinearLayout>
+
+</FrameLayout>
